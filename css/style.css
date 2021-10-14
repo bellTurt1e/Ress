@@ -1,0 +1,126 @@
+body{
+    background: rgb(58, 58, 58);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#content {
+  padding: 100px;
+  color: white;
+  font-size: 30px;
+  background: rgb(72,72,72);
+    max-height: 270px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max—height 0.7s;
+}
+
+#content.open {
+    max-height: 1000px;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#show-more {
+    background: #1594e5;
+    color: #fff;
+    font-family: calibri;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+header{
+  background: black;
+  background-image: url("../me.JPG");
+  background-size: 100%;
+  background-position: center;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+header .logo a{
+  background-image: url("../me.JPG");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  text-indent: -9999999px;
+  top: -30;
+  width: 300px;
+}
+div{
+  background: rgb(72,72,72);
+  display: flex;
+  margin: auto;
+  width:250px;
+  height: 250px;
+}
+section{
+  background: white
+  color: grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+
+}
+.features{
+  background: grey;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.features figure{
+  margin: auto;
+  text-align: center;
+  width: 200px;
+}
+
+.features figure img{
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: black 0 0 10px;
+
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 100px;
+}
+p{
+  padding: 100px;
+  color: white;
+  font-size: 30px;
+  background: rgb(72,72,72);
+}
+p3{
+
+  background: grey;
+  color: black;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+footer{
+  background: black;
+  color: grey;
+  font-size: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: -20px
+
+}
