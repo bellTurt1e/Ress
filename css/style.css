@@ -67,8 +67,8 @@ div{
   height: 250px;
 }
 section{
-  background: white
-  color: grey;
+  background: #808080;
+  color: #808080;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -100,6 +100,28 @@ li{
     margin: 20px;
     font-size: 100px;
 }
+
+.flex-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-box{
+  width: calc(25% - 20px); /* 25% width with margin */
+  height: 200px;
+  background: linear-gradient(blue, yellow);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  line-height: 200px; /* Adjust based on box height */
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
 p{
   padding: 100px;
   color: white;
