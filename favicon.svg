@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Raymond Bell — turtle</title>
+  <rect width="64" height="64" rx="16" fill="#f5f4ee"/>
+  <g fill="#72965d" stroke="#254331" stroke-width="2.5" stroke-linejoin="round">
+    <ellipse cx="32" cy="12" rx="7" ry="8"/>
+    <path d="M19 23C9 16 6 23 15 31M45 23C55 16 58 23 49 31M18 43C8 49 13 57 23 48M46 43C56 49 51 57 41 48M28 49L32 59L36 49Z"/>
+    <ellipse cx="32" cy="34" rx="18" ry="21" fill="#31533c"/>
+  </g>
+  <g fill="none" stroke="#b6c993" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M32 23L41 29V40L32 46L23 40V29ZM32 23V16M41 29L47 25M41 40L47 44M32 46V52M23 40L17 44M23 29L17 25"/>
+  </g>
+  <g fill="#203b2a"><circle cx="29.5" cy="9.5" r="1.2"/><circle cx="34.5" cy="9.5" r="1.2"/></g>
+</svg>
